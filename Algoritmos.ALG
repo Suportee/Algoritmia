@@ -1,0 +1,22 @@
+Algoritmo "Média"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Calcula a média!
+// Autor(a)    : Stelânio Guerreiro
+// Data atual  : 19/07/2017
+Var
+// Seção de Declarações das variáveis 
+Nota_1,Nota_2,Nota_3,Media:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva("Digite a primeira nota: ")
+leia(Nota_1)
+escreva("Digite a segunda nota: ")
+leia(Nota_2)
+escreva("Digite a terceira nota: ")
+leia(Nota_3)
+Media<-(Nota_1+Nota_2+Nota_3)/3
+escreva ("A respetiva media é igual: ",Media)
+
+Fimalgoritmo
